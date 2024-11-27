@@ -1,0 +1,24 @@
+From bd26e380bc432ab44b20ed18a8066feb6da1b191 Mon Sep 17 00:00:00 2001
+From: Dmitry Lavrenov <lawrenowdima@gmail.com>
+Date: Wed, 27 Nov 2024 19:45:19 +0300
+Subject: [PATCH] Derive Default
+
+---
+ src/lib.rs | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/lib.rs b/src/lib.rs
+index b9f738d..8ce1d38 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -1,6 +1,7 @@
+ //! Istanbul lib example.
+ 
+ /// Istanbul.
++#[derive(Default)]
+ pub struct Istanbul;
+ 
+ /// Version.
+-- 
+2.39.2 (Apple Git-143)
+
