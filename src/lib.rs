@@ -4,4 +4,4 @@
 pub struct Istanbul;
 
 /// Version.
-pub const VERSION: u8 = 2;
+pub const VERSION: u8 = 3;
