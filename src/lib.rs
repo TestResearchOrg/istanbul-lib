@@ -2,3 +2,6 @@
 
 /// Istanbul.
 pub struct Istanbul;
+
+/// Version.
+pub const VERSION: u8 = 1;
